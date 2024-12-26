@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div>
       <h1 style={{ color: 'white' }}>My Resume</h1>
-      <iframe title="Resume PDF" src="/MyPortfolio.pdf" width="100%" height="800px"></iframe>
+      <iframe title="Resume PDF" src="/MyPortfolio.pdf" width="80%" height="800px"></iframe>
     </div>
   );
 }

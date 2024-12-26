@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Change this to flex-start */
+    padding: 10px 20px;
+    background-color: #01012b; /* You can change this color */
+    color: white;
+  }
+  
+  .logo {
+    /* Add styles for your logo here */
+    width: 50px; /* Example width */
+    height: 50px; /* Example height */
+    background-color: #555; /* Placeholder color */
+    margin-right: 20px; /* Add some space between logo and menu */
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px; /* Spacing between menu items */
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .menu a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }

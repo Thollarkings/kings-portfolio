@@ -1,0 +1,24 @@
+.projects-container {
+    color: rgb(255, 255, 255);
+  }
+  
+  .projects-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects-list li {
+    margin-bottom: 20px;
+  }
+  
+  .projects-list li a {
+    color: lightblue; /* Change the link color to light blue */
+    font-size: 22px; /* Increase the font size of the links */
+    text-decoration: none;
+  }
+  
+  .projects-list li p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 5px;
+  }

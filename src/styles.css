@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    width: 110%;
+    align-content: center;
+  }
+  
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #5a4f57;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .layout{
+    background-color: rgb(72, 69, 90);
+    padding: 0;
+    height: 100%;
+  }
+
+  #footer {
+    position: fixed;
+    bottom: 95%; /* Keep it at the bottom */
+    width: 96%; /* Adjust width accordingly */
+    left: 50%;
+    height: 9%;
+    transform: rotate(-90deg); /* Rotate text 90 degrees */
+    background-color: rgb(72, 69, 90);
+    color: white;
+   
+  }
+  
+  #footer h5 {
+  font-size: 1.2em;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      width: 100%;
+      margin: 0; /* Remove negative margin */
+      align-content: center; /* Center content horizontally */
+    }
+  
+    .container {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    #footer {
+      position: fixed;
+      bottom: 150px; /* Keep it at the bottom */
+      width: 400px; /* Adjust width accordingly */
+      left: 160px;
+
+      height: 2%;
+      transform: rotate(-90deg); /* Rotate text 90 degrees */
+      background-color: rgba(72, 69, 90, 0);
+      color: #000000;
+     
+    }
+    
+    #footer h5 {
+      font-size: 1.2em;
+      
+    }
+  }
